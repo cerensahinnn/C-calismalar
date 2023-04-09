@@ -6,10 +6,10 @@
 int main ()
 {
     int day;
-    printf("hangi günde olduğunu öğrenmek için sayı giriniz:");
+    printf("Hangi günde olduğunu öğrenmek için sayı giriniz:");
     scanf("%d",&day);
     if (day>0 && day<8){
-        printf("sorduğunuz gün: ");
+        printf("Bulunduğunuz gün: ");
         switch (day){
             case 1: printf("Pazartesi \n");
             break;
@@ -28,7 +28,7 @@ int main ()
         }
 }
     else 
-        printf("1 ile 7 arasında bir sayı gir");
+        printf("1 ile 7 arasında bir sayı girmeniz gerekiyor.");
 
     return 0;
 }
