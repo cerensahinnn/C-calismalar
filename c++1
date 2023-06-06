@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string name, name2;
+    int age, age2;
+    name= "Anil Karacay";
+    age=21;
+    cout << "Hello" << endl << "Student name:" << name << endl;
+    cout << "student age:" << age << endl;
+    
+    cout << "Student's sister's name:" << name2;
+    cin >> name2; 
+    cout << "Sister's age:" << age2 ;
+    cin >> age2;
+    
+    return 0;
+}
